@@ -24,3 +24,7 @@ Finalamente abrir el archivo datos.sql y conectarse por un cliente a la bd mysql
 
 el proyecto se podra ver en http://localhost:8082/
 
+De forma adicional, la respuestas del backend por defecto se exponen en json, pero si fuera el caso tambien podrian se expuestas en xml cambiando en el header lo siguiente
+
+Accept:application/json a Accept:application/xml
+
