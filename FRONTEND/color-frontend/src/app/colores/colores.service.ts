@@ -2,9 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Color } from './color.model';
+import { environment } from 'src/environments/environment';
 
-const baseUrl = 'http://localhost:8084/api/colores';
-
+const baseUrl = environment.apiUrl;
 
 @Injectable({
   providedIn: 'root'
